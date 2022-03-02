@@ -42,7 +42,7 @@ devtools::install_github("sstoeckl/pensionfinanceLi")
 install.packages(c("xtable","maps","ggmap","mice","officer","devEMF","tis","plotly","ggthemes","RCurl"))
 install.packages(c("plyr","tictoc","beepr","tikzDevice","readxl","writexl","viridis"))
 install.packages(c("RcppEigen","RcppArmadillo","RcppParallel","RcppRoll"))
-install.packages(c("RMariaDB"))
+install.packages(c("RMariaDB","DBI","dbplyr"))
 # install.packages(c(""))
 
 
