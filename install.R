@@ -27,6 +27,8 @@ install.packages(c("BART","caTools","AUC","CausalImpact","cowplot","breakDown","
 devtools::install_github('catboost/catboost', subdir = 'catboost/R-package')
 install.packages("CompareCausalNetworks", dependencies = "Suggests")
 install.packages(c("nloptr"))
+install.packages(c("mlr3","mlr3learners","mlr3verse"))
+remotes::install_github("mlr-org/mlr3mbo")
 # statistics
 install.packages(c("pracma","zoo","xts","timeSeries","timeDate"))
 install.packages(c("sandwich","lmtest","plm"))
