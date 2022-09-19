@@ -1,5 +1,5 @@
 # sudo apt-get install xml2 libxml2-dev tcl8.6-dev tk tk8.6-dev libgsl2.3 glpk-utils libglpk-dev coinor-libcbc-dev coinor-libclp-dev
-# coinor-libsymphony-dev curl libmariadb-dev libmysqlclient-dev libssl-dev
+# coinor-libsymphony-dev curl libmariadb-dev libmysqlclient-dev libssl-dev texlive
 # initial packages
 install.packages("devtools")
 install.packages(c("pacman"))
