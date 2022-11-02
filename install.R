@@ -47,6 +47,7 @@ install.packages(c("xtable","maps","ggmap","mice","officer","devEMF","tis","plot
 install.packages(c("plyr","tictoc","beepr","tikzDevice","readxl","writexl","viridis"))
 install.packages(c("RcppEigen","RcppArmadillo","RcppParallel","RcppRoll"))
 install.packages(c("RMariaDB","DBI","dbplyr"))
+install.packages(c("learnr","exams"))
 # install.packages(c(""))
 
 
