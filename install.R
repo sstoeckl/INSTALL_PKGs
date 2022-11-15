@@ -48,6 +48,6 @@ install.packages(c("plyr","tictoc","beepr","tikzDevice","readxl","writexl","viri
 install.packages(c("RcppEigen","RcppArmadillo","RcppParallel","RcppRoll"))
 install.packages(c("RMariaDB","DBI","dbplyr"))
 install.packages(c("learnr","exams"))
-# install.packages(c(""))
+install.packages(c("doSNOW","RobStatTM","R.rsp"))
 
 
