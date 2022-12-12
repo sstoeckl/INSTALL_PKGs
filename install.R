@@ -1,5 +1,5 @@
 # sudo apt-get install xml2 libxml2-dev tcl8.6-dev tk tk8.6-dev libgsl2.3 glpk-utils libglpk-dev coinor-libcbc-dev coinor-libclp-dev
-# coinor-libsymphony-dev curl libmariadb-dev libmysqlclient-dev libssl-dev texlive texlive-latex-extra
+# coinor-libsymphony-dev curl libmariadb-dev libmysqlclient-dev libssl-dev texlive texlive-latex-extra libpq-dev
 
 # locales: sudo dpkg-reconfigure locales (110 112 114 141 159)
 # initial packages
@@ -46,7 +46,7 @@ devtools::install_github("sstoeckl/pensionfinanceLi")
 install.packages(c("xtable","maps","ggmap","mice","officer","devEMF","tis","plotly","ggthemes","RCurl"))
 install.packages(c("plyr","tictoc","beepr","tikzDevice","readxl","writexl","viridis"))
 install.packages(c("RcppEigen","RcppArmadillo","RcppParallel","RcppRoll"))
-install.packages(c("RMariaDB","DBI","dbplyr"))
+install.packages(c("RMariaDB","DBI","dbplyr","RPostgres"))
 install.packages(c("learnr","exams"))
 install.packages(c("doSNOW","RobStatTM","R.rsp"))
 
