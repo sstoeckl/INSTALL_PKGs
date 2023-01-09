@@ -49,5 +49,7 @@ install.packages(c("RcppEigen","RcppArmadillo","RcppParallel","RcppRoll"))
 install.packages(c("RMariaDB","DBI","dbplyr","RPostgres"))
 install.packages(c("learnr","exams"))
 install.packages(c("doSNOW","RobStatTM","R.rsp"))
+install.packages(c("job"))
+
 
 
