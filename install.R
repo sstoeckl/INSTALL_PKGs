@@ -19,13 +19,15 @@ install.packages(c("tsibble","PerformanceAnalytics","PortfolioAnalytics",
 install.packages(c("Rsymphony","Rglpk","fPortfolio"))#, dependencies="Suggests")
 install.packages(c("PortfolioAnalytics"), dependencies="Suggests")
 # machine learning
-install.packages("keras")
+install.packages(c("tensorflow","reticulate","keras"))
 install.packages("caret")#, dependencies = "Suggests")
 BiocManager::install("RBGL"); BiocManager::install("CAM")
 install.packages(c("BART","caTools","AUC","CausalImpact","cowplot","breakDown","dummies","e1071",
                    "factoextra","fastAdaboost","forecast","FNN","ggpubr","glmnet","iml","lime","naivebayes",
                    "pcalg","quadprog","quantmod","randomForest","rBayesianOptimization","R6","ReinforcementLearning",
-                   "rpart","rpart.plot","spBayes","xgboost","nnet","kernlab","forest"))
+                   "rpart","rpart.plot","spBayes","xgboost","nnet","kernlab","forest","torch","ForecastComb","tabnet","MultivariateRandomForest"))
+
+install.packages(c("tidymodels")) #"parsnip","tune","rsample","recipes"))
 devtools::install_github('catboost/catboost', subdir = 'catboost/R-package')
 install.packages("CompareCausalNetworks", dependencies = "Suggests")
 install.packages(c("nloptr"))
