@@ -40,7 +40,7 @@ install.packages(c("changepoint","changepoint.np","strucchange","cpm","ocp"))
 
 # sstoeckl personal packages
 install.packages("crypto2")
-install.packages("FFdownload")
+install.packages(c("FFdownload","frenchdata"))
 devtools::install_github("sstoeckl/uncertaintymeasures")
 devtools::install_github("sstoeckl/pensionfinanceLi")
 
