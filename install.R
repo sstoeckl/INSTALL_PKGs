@@ -11,7 +11,7 @@ install.packages(c("rmarkdown","blogdown","bookdown","knitr","kableExtra"))
 install.packages("BiocManager"); BiocManager::install("Rgraphviz");
 # tidy packages
 install.packages(c("tidyverse","tidyquant","tidymodels","furrr","slider","timetk","lubridate","tidyr","purrr","corrr",
-                   "tibbletime","broom","vroom","glue"))
+                   "tibbletime","broom","vroom","glue","janitor"))
 install.packages(c("data.table"))
 # finance packages
 install.packages(c("tsibble","PerformanceAnalytics","PortfolioAnalytics",
@@ -38,6 +38,7 @@ remotes::install_github("mlr-org/mlr3mbo")
 install.packages(c("pracma","zoo","xts","timeSeries","timeDate"))
 install.packages(c("sandwich","lmtest","plm"))
 install.packages(c("changepoint","changepoint.np","strucchange","cpm","ocp"))
+install.packages(c("BayesianFactorZoo"))
 
 # sstoeckl personal packages
 install.packages("crypto2")
