@@ -26,7 +26,8 @@ BiocManager::install("RBGL"); BiocManager::install("CAM")
 install.packages(c("BART","caTools","AUC","CausalImpact","cowplot","breakDown","dummies","e1071",
                    "factoextra","fastAdaboost","forecast","FNN","ggpubr","glmnet","iml","lime","naivebayes",
                    "pcalg","quadprog","quantmod","randomForest","rBayesianOptimization","R6","ReinforcementLearning",
-                   "rpart","rpart.plot","spBayes","xgboost","nnet","kernlab","forest","torch","ForecastComb","tabnet","MultivariateRandomForest"))
+                   "rpart","rpart.plot","spBayes","xgboost","nnet","kernlab","forest","torch","ForecastComb","tabnet","MultivariateRandomForest",
+                  "factoextra","NbClust"))
 
 install.packages(c("tidymodels")) #"parsnip","tune","rsample","recipes"))
 devtools::install_github('catboost/catboost', subdir = 'catboost/R-package')
