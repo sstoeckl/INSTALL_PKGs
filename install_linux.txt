@@ -1,0 +1,44 @@
+# Update system
+sudo apt-get update && sudo apt-get upgrade -y
+
+# Install essential Ubuntu packages for R and other tools
+sudo apt-get install -y \
+    build-essential \
+    libxml2-dev \
+    tcl8.6-dev \
+    tk8.6-dev \
+    libgsl-dev \
+    glpk-utils \
+    libglpk-dev \
+    coinor-libcbc-dev \
+    coinor-libclp-dev \
+    coinor-libsymphony-dev \
+    libcurl4-openssl-dev \
+    libmariadb-dev \
+    libmysqlclient-dev \
+    libssl-dev \
+    texlive-full \
+    libpq-dev \
+    python3.10-venv \
+    python3.10-dev \
+    tensorrt \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpng-dev \
+    libtiff-dev \
+    libjpeg-dev \
+    libatlas-base-dev \
+    locales
+
+# Configure locales (choose relevant locale options)
+sudo dpkg-reconfigure locales
+
+# Install R 4.4.1
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+sudo apt-get update
+sudo apt-get install -y r-base
+
+# Install other necessary development tools
+sudo apt-get install -y libxt-dev libopenblas-dev liblapack-dev gfortran
